@@ -10,8 +10,10 @@ Distil the news to what deserves the user's minutes.
 
 1. Establish the topics: from the instruction if given, otherwise the
    standing set — South Africa, technology and AI, markets.
-2. get_news broadly, then search_web once per topic for anything the wire
-   missed in the last day.
+2. In ONE turn, call get_news AND a single search_web whose query covers
+   every topic at once (for the standing set: "South Africa technology AI
+   markets news last 24 hours"). Do not take a separate turn per topic.
+   Do not search three times.
 3. **Deduplicate ruthlessly** — five outlets covering one event is ONE item.
    Merge them; prefer the version with primary detail (numbers, names,
    documents) over the aggregated retelling.
@@ -28,4 +30,8 @@ in South Africa watching technology and money. No headline-speak, no
 
 ## Close
 
-One sentence naming the single story to watch tomorrow, and why.
+Put the full digest on the reel with show_visual kind "text" in the SAME
+turn as the spoken close. Speech is two or three sentences of what matters;
+the card holds the five items and tomorrow's watch. A digest that is only
+spoken is unfinished. End with one sentence naming the single story to
+watch tomorrow, and why.
