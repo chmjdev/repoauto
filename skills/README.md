@@ -5,7 +5,7 @@ follows step by step, using its own tools, to produce a finished piece of
 work. Instruments show; skills *do*.
 
 > "Auto, what are your skills?" · "Run the morning briefing." ·
-> "Use the research skill on the Rand." · "Do an inbox triage in the background."
+> "Use the research skill on the Rand." · "Do an inbox check in the background."
 
 Skills live in this folder, one file each, and load straight from the repo —
 edit, push, and the new procedure is live on the next pull. The default set

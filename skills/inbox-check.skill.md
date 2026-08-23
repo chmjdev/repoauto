@@ -1,7 +1,7 @@
 ---
-name: inbox-triage
+name: inbox-check
 description: The inbox sorted by consequence — urgent, needs-action, waiting, noise — with a one-line verdict on each item that matters and suggested replies drafted for approval.
-say: triage my inbox · sort my mail · run an inbox triage
+say: check my inbox · inbox check · check my mail · triage my inbox · sort my mail
 ---
 
 Turn the inbox from a pile into a verdict. Read, classify, recommend — never
@@ -32,7 +32,7 @@ act on the mail itself.
 - One closing line: what the user should do first.
 - Speech is two or three sentences of that verdict. The card (show_visual kind
   "text", same turn) holds the buckets. A spoken recitation of subjects is a
-  failed triage — you held the digest and did not use it.
+  failed check — you held the digest and did not use it.
 
 ## Judgement notes
 
