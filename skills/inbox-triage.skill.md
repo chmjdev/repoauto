@@ -26,9 +26,13 @@ act on the mail itself.
 
 ## Report shape
 
-- Lead with the single most consequential item.
+- Lead with the single most consequential item, named from the mail you read —
+  who, what they want, why it matters. Not "you have mail" and not a subject list.
 - Then URGENT (all), NEEDS ACTION (up to five), WAITING (up to three).
 - One closing line: what the user should do first.
+- Speech is two or three sentences of that verdict. The card (show_visual kind
+  "text", same turn) holds the buckets. A spoken recitation of subjects is a
+  failed triage — you held the digest and did not use it.
 
 ## Judgement notes
 
